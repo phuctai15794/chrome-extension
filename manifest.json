@@ -17,12 +17,12 @@
     "permissions": [
         "activeTab",
         "tabs",
-        "scripting",
         "alarms"
     ],
     "externally_connectable": {
         "matches": [
-            "*://localhost/*"
+            "*://localhost/*",
+            "*://*.google.com/*"
         ]
     },
     "content_scripts": [
@@ -31,7 +31,8 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "*://localhost/*"
+                "*://localhost/*",
+                "*://*.google.com/*"
             ]
         }
     ],
