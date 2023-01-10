@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Amote Extension",
-    "description": "Scale up your AOV by 10%+ with motivational quotes personalized on the Cart and Checkout page",
+    "name": "Chrome Extension Demo",
+    "description": "Chrome extension tutorials",
     "version": "1.0",
     "action": {
-        "default_title": "Amote Extension",
+        "default_title": "Chrome Extension Demo",
         "default_popup": "index.html",
         "default_icon": "images/icon-16.png"
     },
