@@ -15,14 +15,12 @@
         "128": "images/icon-128.png"
     },
     "permissions": [
-        "activeTab",
         "tabs",
-        "alarms"
+        "activeTab"
     ],
     "externally_connectable": {
         "matches": [
-            "*://localhost/*",
-            "*://*.google.com/*"
+            "*://localhost/*"
         ]
     },
     "content_scripts": [
@@ -31,8 +29,7 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "*://localhost/*",
-                "*://*.google.com/*"
+                "*://localhost/*"
             ]
         }
     ],
